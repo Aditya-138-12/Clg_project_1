@@ -1,0 +1,108 @@
+<html>
+<head>
+
+<meta name="theme-color" content="black">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+window.onload=function(){
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+var a=document.getElementById('btn');
+a.onclick=function(){document.getElementById('nav').style.display="inline";document.getElementById('closebtn').style.display="inline"; document.getElementById('btn').style.display="none";}
+
+var a=document.getElementById("closebtn");
+a.onclick=function(){document.getElementById('nav').style.display="none"; document.getElementById('closebtn').style.display="none";document.getElementById('btn').style.display='inline'}
+}
+
+</script>
+
+<style>
+
+a{margin:9px; color:black; text-decoration:none; transition:0.1s; font-size:20px; text-align:center;}
+a:hover{color:gold; transition:inherit;}
+.lk:hover{color:gold;}
+
+.menu{background-color:rgba(0,0,0,0.85); height:70px; width:100%; position:fixed; top:0; left:0; display:inline-block; text-align:right;}
+.menu a{color:white; margin-right:15px; padding:5px; line-height:65px;}
+.logoc{position:fixed; left:0; height:70px; width:80px; background-color:none; display:inline-block; background-image:url("My project(24).png"); background-repeat:no-repeat; background-size:cover;}
+
+figure{margin-top:50px;}
+
+.two{width:35cm; height:26.5cm; background-color:rgba(0,0,0,0.07); margin-left:7.5cm; margin-top:2.3cm;}
+
+
+iframe{margin-left:150px; width:950; height:860;}
+.h2bknnd{text-align:center; line-height:40px;}
+.download{box-shadow:0px 8px 12px 0px black; background-color:rgba(0,0,0,0.8); border:2px solid rgba(0,0,0,0.03); border-radius:10px; color:white; margin-left:510px; margin-top:0px;}
+
+.footer{font-size:20px; text-align:center;}
+.mfooter{ margin-top:50px;}
+.head{display:none;}
+
+
+@media (max-width: 980px){
+.menu{background-color:rgba(0,0,0,0.85); position:fixed; top:0; left:0; width:100%; height:150px;}
+.menu a{font-size:33.5px; line-height:160px;}
+.logoc{background-image:url("Screenshot 2023-04-24 at 07-31-22 Adobe Express(1).png"); position:fixed; width:200px; height:150px; top:0; left:0;}
+
+
+.two{width:25.5cm; margin-left:0.1cm; height:auto;}
+.download{font-size:40px; margin-left:270px;}
+.footer{font-size:40px; margin-left:30px;}
+.two h2{font-size:40px; margin-top:160px;}
+iframe{height:1700px; width:890px; margin-left:0px;}
+
+.menu{display:none;}
+
+.head{width:100px; height:150px; background-color:rgba(0,0,0,0.8); position:fixed; top:0px; left:0px; width:100%; display:inline;}
+.logo{background-image:url("Screenshot 2023-04-24 at 07-31-22 Adobe Express(1).png"); position:fixed; width:200px; height:150px; top:0; left:0;}
+
+.nav{position:fixed; right:90px; top:50px; display:none;}
+.hom,.abt,.contact{color:white; background-color:dodgerblue; font-size:43px; padding:15px; border:2px solid dodgerblue; border-radius:10px;}
+.closebtn{position:fixed; right:0; top:0px; color:white; font-size:90px; padding:15px; display:none;}
+.btn{position:fixed; right:0; top:17px; color:white; font-size:70px; padding:15px; display:inline;}
+
+
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="head">
+<a href="index"><div class="logo"></div></a>
+ <div id="nav" class="nav">
+<a href="index" class="hom">Home</a>
+<a href="about" class="abt">About Us</a>
+<a href="contact" class="contact">Contact Us</a></div>
+<a class="closebtn" id="closebtn">&times;</a>
+<a class="btn" id="btn"><i class="fa fa-bars"></i><a/>
+</div>
+
+
+<div class="menu">
+<a href="index.html"><div class="logoc"></div></a>
+<a class="lk" href="index.html">HOME</a>
+<a class="lk" href=#">VTU Bank</a>
+<a class="lk" href="about.html">ABOUT US</a>
+<a class="lk" href="contact.html">CONTACT US</a>
+</div>
+
+<div class="two">
+<figure id="BKNND"><h2 class="h2bknnd">Balake Kannada Model Question Paper</h2><iframe src="https://drive.google.com/file/d/1AUcIetCDmD-duapNLGyQuWi_jFZ3brXl/preview" width="640" height="480" allow="autoplay"></iframe><br/><a href="balake kannada.pdf" download="Balake_kannada_sol" class="download">Download PDF File</a></figure>
+</div>
+
+
+
+<div class="mfooter">
+<hr>
+<p id="footer" class="footer">Copyright &copy All Rights Reserved 2023.</p>
+</div>
+
+</body>
+</html>

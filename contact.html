@@ -1,0 +1,92 @@
+<html>
+<head>
+
+<meta name="theme-color" content="black">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script text="text/javascript">document.addEventListener('contextmenu', event => event.preventDefault());</script>
+<script type="text/javascript">
+window.onload=function(){
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+var a=document.getElementById('btn');
+a.onclick=function(){document.getElementById('nav').style.display="inline";document.getElementById('closebtn').style.display="inline"; document.getElementById('btn').style.display="none";}
+
+var a=document.getElementById("closebtn");
+a.onclick=function(){document.getElementById('nav').style.display="none"; document.getElementById('closebtn').style.display="none";document.getElementById('btn').style.display='inline'}
+}
+
+</script>
+<style>
+body{background-color:WHITE;}
+
+.menu{background-color:rgba(0,0,0,0.85); height:70px; width:100%; position:fixed; top:0; left:0; display:inline-block; text-align:right;}
+.menu a{color:white; margin-right:15px; padding:5px; line-height:65px;}
+.logoc{position:fixed; left:0; height:70px; width:80px; background-color:none; display:inline-block; background-image:url("My project(24).png"); background-repeat:no-repeat; background-size:cover;}
+
+
+a{margin:7px; color:black; text-decoration:none; transition:1s; font-size:20px;}
+a:hover{color:gold; transition:inherit;}
+h1{text-align:center; margin-top:70px;}
+p{text-align:center; font-size:25px;}
+.footer{margin-top:17.5cm; width:99.2%;}
+
+.head{display:none;}
+
+@media (max-width: 980px){
+a{font-size:15px;}
+h1{font-size:20px;}
+p{font-size:18px;}
+.mail a{font-size:15px;}
+.footer{margin-top:275px;}
+.menu{display:none;}
+
+.head{height:55px; background-color:rgba(0,0,0,0.8); position:fixed; top:0px; left:0px; width:100%; display:inline;}
+.logo{background-image:url("My project-1.png"); position:fixed; width:75px; height:55px; top:0; left:0;}
+.nav{position:fixed; right:28px; top:17px; display:none;}
+.hom,.abt,.contact{color:white; background-color:dodgerblue; border:1px solid dodgerblue; border-radius:3px; font-size:18px; padding:0px; margin-left:0px;}
+.closebtn{position:fixed; right:0; color:white; top:0; font-size:35px; display:none;}
+.btn{position:fixed; right:1; top:8; color:white; font-size:25px;}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="head">
+<a href="index"><div class="logo"></div></a>
+ <div id="nav" class="nav">
+<a href="index" class="hom">Home</a>
+<a href="about" class="abt">About Us</a>
+<a href="contact" class="contact">Contact Us</a></div>
+<a class="closebtn" id="closebtn">&times;</a>
+<a class="btn" id="btn"><i class="fa fa-bars"></i><a/>
+</div>
+
+
+
+<div class="menu">
+<a href="index.html"><div class="logoc"></div></a>
+<a href="index.html">HOME</a>
+<a href=#">VTU Bank</a>
+<a href="about.html">ABOUT US</a>
+<a href="contact.html">CONTACT US</a>
+</div>
+
+
+<h1>Contact Us</h1>
+<p>To Contact Us You Mean That You Want To Share Some Answers With Other Students Which You Have.<br>
+You Should Take The Responsibility Of The Correctness Of The Answers.<br>
+Contact At: <a class="mail" href="mailto:guessmewhoiamguessmewhoiam@gmail.com"><strong>guessmewhoiamguessmewhoiam@g...</strong></a><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 -5.5 19 19">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg></p>
+
+<div class="footer">
+<hr>
+<p>Copyright &copy All Rights Reserved 2023.</p>
+
+</div>
+</body>
+</html>

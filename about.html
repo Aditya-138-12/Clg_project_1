@@ -1,0 +1,95 @@
+<hmtl>
+<head>
+
+<meta name="theme-color" content="black">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script text="text/javascript">document.addEventListener('contextmenu', event => event.preventDefault());</script>
+<script type="text/javascript">
+window.onload=function(){
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+var a=document.getElementById('btn');
+a.onclick=function(){document.getElementById('nav').style.display="inline";document.getElementById('closebtn').style.display="inline"; document.getElementById('btn').style.display="none";}
+
+var a=document.getElementById("closebtn");
+a.onclick=function(){document.getElementById('nav').style.display="none"; document.getElementById('closebtn').style.display="none";document.getElementById('btn').style.display='inline'}
+}
+
+</script>
+
+<style>
+body{background-color:WHITE;}
+
+.menu{background-color:rgba(0,0,0,0.85); height:70px; width:100%; position:fixed; top:0; left:0; display:inline-block; text-align:right;}
+.menu a{color:white; margin-right:15px; padding:5px; line-height:65px;}
+.logoc{position:fixed; left:0; height:70px; width:80px; background-color:none; display:inline-block; background-image:url("My project(24).png"); background-repeat:no-repeat; background-size:cover;}
+
+
+a{margin:7px; color:black; text-decoration:none; transition:1s; font-size:20px;}
+a:hover{color:gold; transition:inherit;}
+
+
+h1{text-align:center; margin-top:70px;}
+p{font-size:25px; text-align:center;}
+.footer{margin-top:11cm; width:99.2%;}
+.head{display:none;}
+
+@media (max-width:980px){
+a{font-size:15px;}
+.two{font-size:1px;}
+.footer{margin-top:0px; width:99.2%;}
+p{font-size:18px;}
+h1{font-size:20px;}
+.menu{display:none;}
+
+.head{height:55px; background-color:rgba(0,0,0,0.8); position:fixed; top:0px; left:0px; width:100%; display:inline;}
+.logo{background-image:url("My project-1.png"); position:fixed; width:75px; height:55px; top:0; left:0;}
+.nav{position:fixed; right:28px; top:17px; display:none;}
+.hom,.abt,.contact{color:white; background-color:dodgerblue; border:1px solid dodgerblue; border-radius:3px; font-size:18px; padding:0px; margin-left:0px;}
+.closebtn{position:fixed; right:0; color:white; top:0; font-size:35px; display:none;}
+.btn{position:fixed; right:1; top:8; color:white; font-size:25px;}
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="head">
+<a href="index"><div class="logo"></div></a>
+ <div id="nav" class="nav">
+<a href="index" class="hom">Home</a>
+<a href="about" class="abt">About Us</a>
+<a href="contact" class="contact">Contact Us</a></div>
+<a class="closebtn" id="closebtn">&times;</a>
+<a class="btn" id="btn"><i class="fa fa-bars"></i><a/>
+</div>
+
+
+
+<div class="menu">
+<a href="index.html"><div class="logoc"></div></a>
+<a href="index.html">HOME</a>
+<a href=#">VTU Bank</a>
+<a href="about.html">ABOUT US</a>
+<a href="contact.html">CONTACT US</a>
+</div>
+
+
+
+
+<h1>About Us</h1>
+<p>
+Welcome to our online directory! We are a group of passionate students dedicated to providing our fellow students with access to a vast collection of model question papers for various academic disciplines.<br><br><br> Our aim is to help students achieve academic success by providing them with the resources they need to excel in their studies.<br><br><br> With our extensive collection of model question papers, students can practice and test their knowledge, identify their strengths and weaknesses, and prepare for exams with confidence. <br><br><br>If you have any questions or need further assistance, please don't hesitate to reach out to us. And if you're looking for answers to these model question papers, we have them too! We're always happy to share our knowledge and help our fellow students.</p>
+
+
+<div class="footer">
+<hr>
+<p>Copyright &copy All Rights Reserved 2023.</p>
+
+
+</body>
+</html>
