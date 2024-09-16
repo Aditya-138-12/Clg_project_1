@@ -1,5 +1,5 @@
 # Clg_project_1
-Website for students to upload and share Answers.
+Website for students to upload and share answers.
 
-## Access The Site Here
-- [Click Link]("https://tinyurl.com/4rt9xwku")
+## Access the Site Here
+- [Click Here](https://tinyurl.com/4rt9xwku)
